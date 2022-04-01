@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta name="description" content="Babette">
+  <link href="assets/images/favicon/favicon.png" rel="icon">
+  <title>Babette</title>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Rubik:400,500,700%7cShadows+Into+Light&display=swap">
+  <link rel="stylesheet" href="assets/css/libraries.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <!-- =========================
+        Header
+    =========================== -->
+    <header id="header" class="header header-transparent header-layout1">
+      <nav class="navbar navbar-expand-lg sticky-navbar">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            <img src="assets/images/logo/logo-light2.png" class="logo-light" alt="logo">
+            <img src="assets/images/logo/logo-dark2.png" class="logo-dark" alt="logo">
+          </a>
+          <button class="navbar-toggler" type="button">
+            <span class="menu-lines"><span></span></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mainNavigation">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav__item with-dropdown">
+                <a href="index.html" class="dropdown-toggle nav__item-link">Home</a>
+              </li><!-- /.nav-item -->
+              <li class="nav__item with-dropdown">
+                <a href="#" data-toggle="dropdown" class="dropdown-toggle nav__item-link">Sobre</a>
+                <ul class="dropdown-menu">
+                  <li class="nav__item"><a href="our-story.html" class="nav__item-link">Nosotros</a></li>
+                  <!-- /.nav-item -->
+                  <li class="nav__item"><a href="our-chefs.html" class="nav__item-link">Nuestros chefs</a></li>
+                  <!-- /.nav-item -->
+                  <li class="nav__item"><a href="reservation.html" class="nav__item-link">Reservas</a></li>
+                  <!-- /.nav-item -->
+                  <li class="nav__item"><a href="contacts.html" class="nav__item-link">Contacto</a></li>
+                </ul><!-- /.dropdown-menu -->
+              </li><!-- /.nav-item -->
+              <li class="nav__item with-dropdown">
+                <a href="menu-classic.html" class="dropdown-toggle nav__item-link">Menu</a>
+              </li><!-- /.nav-item -->
+              <li class="nav__item with-dropdown">
+                <a href="gallery-grid.html" class="dropdown-toggle nav__item-link active">Galería</a>
+              </li><!-- /.nav-item -->
+              <li class="nav__item with-dropdown">
+                <a href="blog-grid-sidebar.html" class="dropdown-toggle nav__item-link">Eventos</a>
+                  </li><!-- /.nav-item -->
+            </ul><!-- /.navbar-nav -->
+          </div><!-- /.navbar-collapse -->
+          <div class="navbar-actions-wrap">
+            <div class="navbar-actions d-flex align-items-center">
+              <a href="#" class="navbar__action-btn search-popup-trigger"><i class="fa fa-search"></i></a>
+              <a href="reservation.html"
+                class="navbar__action-btn navbar__action-btn-reserve btn btn__primary">Reservas</a>
+              <ul class="social__icons">
+                <li><a href="#"><i class="fa fa-tripadvisor"></i></a></li>
+              </ul><!-- /.social__icons -->
+            </div><!-- /.navbar-actions -->
+          </div><!-- /.navbar-actions-wrap -->
+        </div><!-- /.container -->
+      </nav><!-- /.navabr -->
+    </header><!-- /.Header -->
+
+    <!-- ========================
+       page title 
+    =========================== -->
+    <section id="page-title" class="page-title page-title-layout4 text-center bg-overlay bg-overlay-2 bg-parallax">
+      <div class="bg-img"><img src="https://media.gq.com.mx/photos/605cd290c94329bc868c3da0/16:9/w_2560%2Cc_limit/GIN.jpg" alt="background"></div>
+      <svg class="pagetitle__divider-shape" xmlns="http://www.w3.org/2000/svg" width="22" height="61"
+        viewBox="0 0 22 61">
+        <path
+          d="M799,769h2v61h-2V769Zm8,24.8a0.969,0.969,0,0,0-1.911,0,3.012,3.012,0,0,1-.883,2.16,4.486,4.486,0,0,0,0,6.136,3.083,3.083,0,0,1,0,4.32,4.486,4.486,0,0,0,0,6.136,3.088,3.088,0,0,1,0,4.325,4.5,4.5,0,0,0,0,6.142,3.014,3.014,0,0,1,.884,2.163,0.969,0.969,0,0,0,1.911,0,4.414,4.414,0,0,0-1.213-3.07,3.091,3.091,0,0,1,0-4.328,4.491,4.491,0,0,0,0-6.14,3.08,3.08,0,0,1,0-4.319,4.488,4.488,0,0,0,0-6.137,3.081,3.081,0,0,1,0-4.32A4.407,4.407,0,0,0,807,793.8Zm0-20a0.969,0.969,0,0,0-1.911,0,3.014,3.014,0,0,1-.883,2.16,4.486,4.486,0,0,0,0,6.136,3.083,3.083,0,0,1,0,4.32,4.488,4.488,0,0,0,0,6.137,3.087,3.087,0,0,1,0,4.324,4.5,4.5,0,0,0,0,6.142,3.014,3.014,0,0,1,.884,2.163,0.969,0.969,0,0,0,1.911,0,4.414,4.414,0,0,0-1.213-3.07,3.089,3.089,0,0,1,0-4.327,4.491,4.491,0,0,0,0-6.14,3.081,3.081,0,0,1,0-4.32,4.488,4.488,0,0,0,0-6.137,3.081,3.081,0,0,1,0-4.32A4.409,4.409,0,0,0,807,773.8ZM793,793.8a0.969,0.969,0,0,1,1.911,0,3.012,3.012,0,0,0,.883,2.16,4.486,4.486,0,0,1,0,6.136,3.083,3.083,0,0,0,0,4.32,4.486,4.486,0,0,1,0,6.136,3.088,3.088,0,0,0,0,4.325,4.5,4.5,0,0,1,0,6.142,3.014,3.014,0,0,0-.884,2.163,0.969,0.969,0,0,1-1.911,0,4.414,4.414,0,0,1,1.213-3.07,3.091,3.091,0,0,0,0-4.328,4.491,4.491,0,0,1,0-6.14,3.08,3.08,0,0,0,0-4.319,4.488,4.488,0,0,1,0-6.137,3.081,3.081,0,0,0,0-4.32A4.407,4.407,0,0,1,793,793.8Zm0-20a0.969,0.969,0,0,1,1.911,0,3.014,3.014,0,0,0,.883,2.16,4.486,4.486,0,0,1,0,6.136,3.083,3.083,0,0,0,0,4.32,4.488,4.488,0,0,1,0,6.137,3.087,3.087,0,0,0,0,4.324,4.5,4.5,0,0,1,0,6.142,3.014,3.014,0,0,0-.884,2.163,0.969,0.969,0,0,1-1.911,0,4.414,4.414,0,0,1,1.213-3.07,3.089,3.089,0,0,0,0-4.327,4.491,4.491,0,0,1,0-6.14,3.081,3.081,0,0,0,0-4.32,4.488,4.488,0,0,1,0-6.137,3.081,3.081,0,0,0,0-4.32A4.409,4.409,0,0,1,793,773.8Zm-4,5.2h2v41h-2V779Zm20,0h2v41h-2V779Z"
+          transform="translate(-789 -769)"></path>
+      </svg>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-12">
+            <h1 class="pagetitle__heading">Galería</h1>
+          </div><!-- /.col-lg-12 -->
+        </div><!-- /.row -->
+      </div><!-- /.container -->
+    </section><!-- /.page-title -->
+
+    <!-- =========================== 
+      portfolio Gallery 
+    ============================= -->
+    <section id="portfolioGallery" class="portfolio portfolio-gallery">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-12">
+            <ul class="portfolio-filter justify-content-center">
+              <li><a class="filter active" href="#" data-filter="all">Todas</a></li>
+              <li><a class="filter" href="#" data-filter=".filter-restaurant">Restaurant</a></li>
+              <li><a class="filter" href="#" data-filter=".filter-staff">Staff</a></li>
+              <li><a class="filter" href="#" data-filter=".filter-clients">Clientes</a></li>
+            </ul><!-- /.portfolio-filter  -->
+          </div><!-- /.col-lg-12 -->
+        </div><!-- /.row -->
+        <div class="row filtered-items-wrap">
+          <!-- portfolio item #1 -->
+          <div class="col-sm-6 col-md-6 col-lg-4 mix filter-restaurant">
+            <div class="portfolio-item">
+              <div class="portfolio__img">
+                <img src="https://img.freepik.com/foto-gratis/pasta-fusilli-tomate-carne-pollo-perejil-plato-sobre-mesa-oscura_2829-3397.jpg?size=626&ext=jpg" alt="portfolio img">
+              </div><!-- /.portfolio-img -->
+              <div class="portfolio__hover">
+                <a href="assets/images/gallery/1.jpg" data-lightbox="lightbox" class="zoom__icon"></a>
+              </div><!-- /.portfolio__hover-->
+            </div><!-- /.portfolio-item -->
+          </div><!-- /.col-lg-4 -->
+          <!-- portfolio item #2 -->
+          <div class="col-sm-6 col-md-6 col-lg-4 mix filter-staff">
+            <div class="portfolio-item">
+              <div class="portfolio__img">
+                <img src="http://tourgeorgia.ge/wp-content/uploads/2017/02/HD-Jasmin-Restaurant.jpg" alt="portfolio img">
+              </div><!-- /.portfolio-img -->
+              <div class="portfolio__hover">
+                <a href="assets/images/gallery/2.jpg" data-lightbox="lightbox" class="zoom__icon"></a>
+              </div><!-- /.portfolio__hover-->
+            </div><!-- /.portfolio-item -->
+          </div><!-- /.col-lg-4 -->
+          <!-- portfolio item #3 -->
+          <div class="col-sm-6 col-md-6 col-lg-4 mix filter-clients">
+            <div class="portfolio-item">
+              <div class="portfolio__img">
+                <img src="https://img.freepik.com/foto-gratis/penne-pasta-salsa-tomate-carne-tomates-decorados-brotes-guisantes-mesa-oscura_2829-3411.jpg" alt="portfolio img">
+              </div><!-- /.portfolio-img -->
+              <div class="portfolio__hover">
+                <a href="assets/images/gallery/3.jpg" data-lightbox="lightbox" class="zoom__icon"></a>
+              </div><!-- /.portfolio__hover-->
+            </div><!-- /.portfolio-item -->
+          </div><!-- /.col-lg-4 -->
+          <!-- portfolio item #4 -->
+          <div class="col-sm-6 col-md-6 col-lg-4 mix filter-restaurant ">
+            <div class="portfolio-item">
+              <div class="portfolio__img">
+                <img src="https://media.istockphoto.com/photos/pasta-plate-picture-id632439546?k=20&m=632439546&s=612x612&w=0&h=pkj0ywccJNs8YChKc188E_sIxeO_ENpF0dnvQkQOBqo=" alt="portfolio img">
+              </div><!-- /.portfolio-img -->
+              <div class="portfolio__hover">
+                <a href="assets/images/gallery/4.jpg" data-lightbox="lightbox" class="zoom__icon"></a>
+              </div><!-- /.portfolio__hover-->
+            </div><!-- /.portfolio-item -->
+          </div><!-- /.col-lg-4 -->
+          <!-- portfolio item #5 -->
+          <div class="col-sm-6 col-md-6 col-lg-4 mix filter-staff">
+            <div class="portfolio-item">
+              <div class="portfolio__img">
+                <img src="https://p4.wallpaperbetter.com/wallpaper/836/415/731/benefit-from-chili-chili-peppers-cook-wallpaper-preview.jpg" alt="portfolio img">
+              </div><!-- /.portfolio-img -->
+              <div class="portfolio__hover">
+                <a href="https://p4.wallpaperbetter.com/wallpaper/836/415/731/benefit-from-chili-chili-peppers-cook-wallpaper-preview.jpg" data-lightbox="lightbox" class="zoom__icon"></a>
+              </div><!-- /.portfolio__hover-->
+            </div><!-- /.portfolio-item -->
+          </div><!-- /.col-lg-4 -->
+          <!-- portfolio item #6 -->
+          <div class="col-sm-6 col-md-6 col-lg-4 mix filter-clients">
+            <div class="portfolio-item">
+              <div class="portfolio__img">
+                <img src="https://media.istockphoto.com/photos/pasta-spaghetti-with-tomato-sauce-in-black-bowl-on-grey-stone-top-picture-id1174657282?k=20&m=1174657282&s=612x612&w=0&h=O1RpO5XyQD1O6VMzey_16UdCSV3w5OYkjPS59qGZgKM=" alt="portfolio img">
+              </div><!-- /.portfolio-img -->
+              <div class="portfolio__hover">
+                <a href="assets/images/gallery/6.jpg" data-lightbox="lightbox" class="zoom__icon"></a>
+              </div><!-- /.portfolio__hover-->
+            </div><!-- /.portfolio-item -->
+          </div><!-- /.col-lg-4 -->
+          <!-- portfolio item #7 -->
+          <div class="col-sm-6 col-md-6 col-lg-4 mix filter-clients portfolio-hidden">
+            <div class="portfolio-item">
+              <div class="portfolio__img">
+                <img src="https://sircinnamon.es/wp-content/uploads/2019/10/bigstock-Whiskey-cola-Cocktail-Mojito-240556924.jpg" alt="portfolio img">
+              </div><!-- /.portfolio-img -->
+              <div class="portfolio__hover">
+                <a href="assets/images/gallery/7.jpg" data-lightbox="lightbox" class="zoom__icon"></a>
+              </div><!-- /.portfolio__hover-->
+            </div><!-- /.portfolio-item -->
+          </div><!-- /.col-lg-4 -->
+          <!-- portfolio item #8 -->
+          <div class="col-sm-6 col-md-6 col-lg-4 mix filter-staff portfolio-hidden">
+            <div class="portfolio-item">
+              <div class="portfolio__img">
+                <img src="https://ak.picdn.net/shutterstock/videos/11130941/thumb/1.jpg" alt="portfolio img">
+              </div><!-- /.portfolio-img -->
+              <div class="portfolio__hover">
+                <a href="assets/images/gallery/8.jpg" data-lightbox="lightbox" class="zoom__icon"></a>
+              </div><!-- /.portfolio__hover-->
+            </div><!-- /.portfolio-item -->
+          </div><!-- /.col-lg-4 -->
+          <!-- portfolio item #9 -->
+          <div class="col-sm-6 col-md-6 col-lg-4 mix filter-restaurant portfolio-hidden">
+            <div class="portfolio-item">
+              <div class="portfolio__img">
+                <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80" alt="portfolio img">
+              </div><!-- /.portfolio-img -->
+              <div class="portfolio__hover">
+                <a href="assets/images/gallery/1.jpg" data-lightbox="lightbox" class="zoom__icon"></a>
+              </div><!-- /.portfolio__hover-->
+            </div><!-- /.portfolio-item -->
+          </div><!-- /.col-lg-4 -->
+        </div><!-- /.row -->
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-12 text-center">
+            <a class="btn btn__secondary btn__link mt-20 loadMoreportfolio" href="#">Load more</a>
+          </div><!-- /.col-lg-12 -->
+        </div><!-- /.row -->
+      </div><!-- /.container -->
+    </section><!-- /.portfolio Gallery -->
+
+    <!-- ========================
+      Footer
+    ========================== -->
+    <footer id="footer" class="footer footer-layout1 text-center bg-dark">
+      <div class="footer-inner">
+        <div class="container">
+          <div class="footer-top">
+            <div class="row">
+              <div class="col-sm-12 col-md-12 col-lg-12 position-static">
+                <svg class="footer__divider-shape" xmlns="http://www.w3.org/2000/svg" width="22" height="61"
+                  viewBox="0 0 22 61">
+                  <path
+                    d="M799,769h2v61h-2V769Zm8,24.8a0.969,0.969,0,0,0-1.911,0,3.012,3.012,0,0,1-.883,2.16,4.486,4.486,0,0,0,0,6.136,3.083,3.083,0,0,1,0,4.32,4.486,4.486,0,0,0,0,6.136,3.088,3.088,0,0,1,0,4.325,4.5,4.5,0,0,0,0,6.142,3.014,3.014,0,0,1,.884,2.163,0.969,0.969,0,0,0,1.911,0,4.414,4.414,0,0,0-1.213-3.07,3.091,3.091,0,0,1,0-4.328,4.491,4.491,0,0,0,0-6.14,3.08,3.08,0,0,1,0-4.319,4.488,4.488,0,0,0,0-6.137,3.081,3.081,0,0,1,0-4.32A4.407,4.407,0,0,0,807,793.8Zm0-20a0.969,0.969,0,0,0-1.911,0,3.014,3.014,0,0,1-.883,2.16,4.486,4.486,0,0,0,0,6.136,3.083,3.083,0,0,1,0,4.32,4.488,4.488,0,0,0,0,6.137,3.087,3.087,0,0,1,0,4.324,4.5,4.5,0,0,0,0,6.142,3.014,3.014,0,0,1,.884,2.163,0.969,0.969,0,0,0,1.911,0,4.414,4.414,0,0,0-1.213-3.07,3.089,3.089,0,0,1,0-4.327,4.491,4.491,0,0,0,0-6.14,3.081,3.081,0,0,1,0-4.32,4.488,4.488,0,0,0,0-6.137,3.081,3.081,0,0,1,0-4.32A4.409,4.409,0,0,0,807,773.8ZM793,793.8a0.969,0.969,0,0,1,1.911,0,3.012,3.012,0,0,0,.883,2.16,4.486,4.486,0,0,1,0,6.136,3.083,3.083,0,0,0,0,4.32,4.486,4.486,0,0,1,0,6.136,3.088,3.088,0,0,0,0,4.325,4.5,4.5,0,0,1,0,6.142,3.014,3.014,0,0,0-.884,2.163,0.969,0.969,0,0,1-1.911,0,4.414,4.414,0,0,1,1.213-3.07,3.091,3.091,0,0,0,0-4.328,4.491,4.491,0,0,1,0-6.14,3.08,3.08,0,0,0,0-4.319,4.488,4.488,0,0,1,0-6.137,3.081,3.081,0,0,0,0-4.32A4.407,4.407,0,0,1,793,793.8Zm0-20a0.969,0.969,0,0,1,1.911,0,3.014,3.014,0,0,0,.883,2.16,4.486,4.486,0,0,1,0,6.136,3.083,3.083,0,0,0,0,4.32,4.488,4.488,0,0,1,0,6.137,3.087,3.087,0,0,0,0,4.324,4.5,4.5,0,0,1,0,6.142,3.014,3.014,0,0,0-.884,2.163,0.969,0.969,0,0,1-1.911,0,4.414,4.414,0,0,1,1.213-3.07,3.089,3.089,0,0,0,0-4.327,4.491,4.491,0,0,1,0-6.14,3.081,3.081,0,0,0,0-4.32,4.488,4.488,0,0,1,0-6.137,3.081,3.081,0,0,0,0-4.32A4.409,4.409,0,0,1,793,773.8Zm-4,5.2h2v41h-2V779Zm20,0h2v41h-2V779Z"
+                    transform="translate(-789 -769)"></path>
+                </svg>
+              </div><!-- /.col-lg-12 -->
+              <div class="col-sm-12 col-md-12 col-lg-4">
+                <div class="contact-box">
+                  <h6 class="contact__box-title">Dirección</h6>
+                  <ul class="contact__box-list list-unstyled">
+                    <li>Avenida 13 1434, Local 4</li>
+                  </ul>
+                </div><!-- /.contact-box -->
+              </div><!-- /.col-lg-4 -->
+              <div class="col-sm-12 col-md-12 col-lg-4">
+                <div class="contact-box">
+                  <h6 class="contact__box-title">Horarios</h6>
+                  <ul class="contact__box-list list-unstyled">
+                    <li>Lun - Vie: 10 AM - 11 PM</li>
+                    <li>Sáb - Dom: 9 AM - 1 PM</li>
+                  </ul>
+                </div><!-- /.contact-box -->
+              </div><!-- /.col-lg-4 -->
+              <div class="col-sm-12 col-md-12 col-lg-4">
+                <div class="contact-box">
+                  <h6 class="contact__box-title">Private Dinning</h6>
+                  <ul class="contact__box-list list-unstyled">
+                    <li><span>Email:</span><a href="">xxxxx@gmail.com</a></li>
+                    <li><span>Teléfono:</span><a href="tel:0201012365">02 0101236547</a></li>
+                  </ul>
+                </div><!-- /.contact-box -->
+              </div><!-- /.col-lg-4 -->
+            </div><!-- /.row -->
+          </div><!-- /.footer-top -->
+          <div class="footer-middle">
+            <div class="row">
+              <div class="col-sm-12 col-md-12 col-lg-12 position-static">
+                <div class="footer__logo-wrap text-center">
+                  <img src="assets/images/logo/logo-light2.png" alt="logo" class="footer__logo">
+                </div>
+              </div><!-- /.col-lg-12 -->
+            </div><!-- /.row -->
+            <div class="row">
+              <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-3">
+                <p class="mb-20">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, asperiores aspernatur rem repudiandae eos quibusdam molestiae minus, corporis at dignissimos modi voluptates perspiciatis? Ipsam hic eos facilis voluptate sed rerum?</p>
+                <a href="reservation.html" class="btn btn__primary btn__bordered btn__lg">Reserva tu turno</a>
+              </div><!-- /.col-lg-6 -->
+            </div><!-- /.row -->
+          </div><!-- /.footer-middle -->
+        </div><!-- /.container -->
+        <div class="footer-bottom">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12 col-md-12 col-lg-12">
+                <div class="footer__copyright mb-30">
+                  <span>&copy;CODEINK. Orgullosos de servirte</span> <a href="https://www.instagram.com/code.ink_/" target="_BLANK" class="color-theme">Link aquí</a>
+                  <br>
+                  <span>juanfrafio125@gmail.com</span>
+                </div>
+                <ul class="social__icons social__icons-white justify-content-center">
+                  <li><a href="https://www.instagram.com/code.ink_/" target="_BLANK"><i class="fa fa-instagram"></i></a></li>
+                </ul><!-- /.social__icons -->
+              </div>
+            </div><!-- /.row -->
+          </div><!-- /.container -->
+          <svg class="footer__divider-shape-bottom" xmlns="http://www.w3.org/2000/svg" width="142" height="17"
+            viewBox="0 0 142 17">
+            <path
+              d="M800,600V583c8.782,15.985,46.811,11.315,56,12a35.721,35.721,0,0,1,15,5m-71,0V583c-8.782,15.985-46.811,11.315-56,12a35.717,35.717,0,0,0-15,5"
+              transform="translate(-729 -583)"></path>
+          </svg>
+        </div><!-- /.Footer-bottom -->
+      </div><!-- /.Footer-inner -->
+    </footer><!-- /.Footer -->
+    <button id="scrollTopBtn"><i class="fa fa-angle-up"></i></button>
+
+    <div class="search-popup">
+      <i class="fa fa-times close-search"></i>
+      <form class="module__search-form">
+        <input type="text" class="search__input" placeholder="Type Words Then Enter">
+        <button class="module__search-btn"><i class="fa fa-search"></i></button>
+      </form>
+    </div><!-- /.search-popup -->
+
+  </div>
+  <!-- /.wrapper -->
+
+  <script src="assets/js/jquery-3.3.1.min.js"></script>
+  <script src="assets/js/plugins.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
